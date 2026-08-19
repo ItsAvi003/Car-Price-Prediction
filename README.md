@@ -39,15 +39,3 @@ Predicting used car prices is challenging due to high variance across vehicle br
     Backend API: FastAPI, uvicorn, pydantic
     Frontend UI: Streamlit, requests
     Environment: Python 3.11+
-
-
-## 📊 Model Performance
-| Metric | Random Forest (Baseline) | XGBoost (Final Model) |
-| :--- | :---: | :---: |
-| **$R^2$ Score** | 0.9193 | **0.9321** |
-| **MAPE** | ~12.4% | **10.98%** |
-| **MAE** | PKR 583,707 (~₹2.04L) | **PKR 540,312 (~₹1.89L)** |
-| **RMSE** | PKR 2,050,708 (~₹7.18L) | **PKR 1,881,364 (~₹6.58L)** |
-
-* **Accuracy**: Explains **93.2%** of price variance with an average error of **~11%**.
-* **Key Drivers**: Engine capacity (28.4%), transmission type (36.6%), and vehicle age (25.6%).
